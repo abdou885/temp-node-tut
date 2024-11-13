@@ -1,0 +1,8 @@
+//commonJS,every file is module (by default)
+//Modules- ecapsulated code (only share minimum)
+const name=require('./4-names')
+const sayhi=require('./5-utils')
+const data = require('./6-alternative-syntax')
+require('./7-mind-grenade')
+sayhi('abdou')
+sayhi(name.john)
